@@ -14,7 +14,7 @@ spec:
         app: hello
     spec:
       containers:
-        - image: quay.io/redhattraining/versioned-hello:v1.1
+        - image: quay.io/redhattraining/versioned-hello:v1.0
           name: hello
           ports:
             - containerPort: 8080
